@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JokenPô</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>JokenPô</h1>
+
+        <div class="buttons">
+            <button type="button" onclick="playHuman('rock')" id="rock"><img src="./assets/hand-rock.png" alt="hand rock"></button>
+            <button type="button" onclick="playHuman('paper')" id="paper"><img src="./assets/hand-paper.png" alt="hand paper"></button>
+            <button type="button" onclick="playHuman('scissors')" id="scissors"><img src="./assets/hand-scissors.png" alt="hand scissors"></button>
+        </div>
+        <p class="result"></p>
+        <p class="my-score">Sua Pontuação: <span id="human-score">0</span></p>
+        <p class="machine-score">Pontuação da Siri: <span id="machine-score">0</span></p>
+        <p id="human-choice"></p>
+        <p id="machine-choice"></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
